@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		00F944B41B8C271C00F29EA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F944B31B8C271C00F29EA2 /* AppDelegate.swift */; };
-		00F944B61B8C271C00F29EA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F944B51B8C271C00F29EA2 /* ViewController.swift */; };
+		00F944B61B8C271C00F29EA2 /* PsychologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F944B51B8C271C00F29EA2 /* PsychologistViewController.swift */; };
 		00F944B91B8C271C00F29EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F944B71B8C271C00F29EA2 /* Main.storyboard */; };
 		00F944BB1B8C271C00F29EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F944BA1B8C271C00F29EA2 /* Assets.xcassets */; };
 		00F944BE1B8C271C00F29EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F944BC1B8C271C00F29EA2 /* LaunchScreen.storyboard */; };
+		00F944C71B8C2BEC00F29EA2 /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F944C51B8C2BEC00F29EA2 /* HappinessViewController.swift */; };
+		00F944C81B8C2BEC00F29EA2 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F944C61B8C2BEC00F29EA2 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00F944B01B8C271C00F29EA2 /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F944B31B8C271C00F29EA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00F944B51B8C271C00F29EA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00F944B51B8C271C00F29EA2 /* PsychologistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistViewController.swift; sourceTree = "<group>"; };
 		00F944B81B8C271C00F29EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00F944BA1B8C271C00F29EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00F944BD1B8C271C00F29EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00F944BF1B8C271C00F29EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F944C51B8C2BEC00F29EA2 /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
+		00F944C61B8C2BEC00F29EA2 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				00F944B31B8C271C00F29EA2 /* AppDelegate.swift */,
-				00F944B51B8C271C00F29EA2 /* ViewController.swift */,
+				00F944B51B8C271C00F29EA2 /* PsychologistViewController.swift */,
+				00F944C51B8C2BEC00F29EA2 /* HappinessViewController.swift */,
+				00F944C61B8C2BEC00F29EA2 /* FaceView.swift */,
 				00F944B71B8C271C00F29EA2 /* Main.storyboard */,
 				00F944BA1B8C271C00F29EA2 /* Assets.xcassets */,
 				00F944BC1B8C271C00F29EA2 /* LaunchScreen.storyboard */,
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00F944B61B8C271C00F29EA2 /* ViewController.swift in Sources */,
+				00F944B61B8C271C00F29EA2 /* PsychologistViewController.swift in Sources */,
+				00F944C71B8C2BEC00F29EA2 /* HappinessViewController.swift in Sources */,
 				00F944B41B8C271C00F29EA2 /* AppDelegate.swift in Sources */,
+				00F944C81B8C2BEC00F29EA2 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
